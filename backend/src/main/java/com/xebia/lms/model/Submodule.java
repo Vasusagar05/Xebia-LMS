@@ -40,4 +40,7 @@ public class Submodule {
 
     @Builder.Default
     private String status = "ACTIVE";
+
+    @Column(name = "video_url", length = 1000)
+    private String videoUrl;
 }

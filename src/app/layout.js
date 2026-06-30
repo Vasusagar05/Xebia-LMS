@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className="h-full antialiased">
-      <body className="h-full bg-background text-foreground custom-scrollbar">
+      <body className="h-full bg-background text-foreground custom-scrollbar" suppressHydrationWarning={true}>
         <QueryProvider>
           <ToastProvider>
             {children}

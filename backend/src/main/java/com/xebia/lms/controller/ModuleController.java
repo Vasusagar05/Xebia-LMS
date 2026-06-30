@@ -40,6 +40,7 @@ public class ModuleController {
                     if (details.getOrder() != null) existing.setOrder(details.getOrder());
                     if (details.getCourseId() != null) existing.setCourseId(details.getCourseId());
                     if (details.getPdfUrl() != null) existing.setPdfUrl(details.getPdfUrl());
+                    if (details.getVideoUrl() != null) existing.setVideoUrl(details.getVideoUrl());
                     if (details.getStatus() != null) existing.setStatus(details.getStatus());
                     return ResponseEntity.ok(moduleRepository.save(existing));
                 })

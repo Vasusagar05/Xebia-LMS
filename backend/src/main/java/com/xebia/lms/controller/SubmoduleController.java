@@ -59,6 +59,7 @@ public class SubmoduleController {
                     if (details.getDuration() != null) existing.setDuration(details.getDuration());
                     if (details.getModuleId() != null) existing.setModuleId(details.getModuleId());
                     if (details.getPdfUrl() != null) existing.setPdfUrl(details.getPdfUrl());
+                    if (details.getVideoUrl() != null) existing.setVideoUrl(details.getVideoUrl());
                     if (details.getStatus() != null) existing.setStatus(details.getStatus());
                     return ResponseEntity.ok(submoduleRepository.save(existing));
                 })

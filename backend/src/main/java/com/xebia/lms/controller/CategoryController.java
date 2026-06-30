@@ -60,6 +60,12 @@ public class CategoryController {
                     if (details.getStatus() != null) {
                         existing.setStatus(details.getStatus());
                     }
+                    if (details.getImageUrl() != null) {
+                        existing.setImageUrl(details.getImageUrl());
+                    }
+                    if (details.getColor() != null) {
+                        existing.setColor(details.getColor());
+                    }
                     return ResponseEntity.ok(categoryRepository.save(existing));
                 })
                 .orElse(ResponseEntity.notFound().build());

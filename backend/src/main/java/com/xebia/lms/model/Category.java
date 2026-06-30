@@ -40,4 +40,9 @@ public class Category {
 
     @Builder.Default
     private String status = "ACTIVE";
+
+    @Column(name = "image_url", length = 1000)
+    private String imageUrl;
+
+    private String color;
 }
