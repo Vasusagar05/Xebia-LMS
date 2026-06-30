@@ -133,7 +133,7 @@ export default function AdminDashboardPage() {
           icon={BookOpen}
           trend="+2 vs last month"
           description="Curriculum pathways active"
-          gradientScheme="blue"
+          gradientScheme="primary"
         />
         <MetricCard
           title="Active Modules"
@@ -141,7 +141,7 @@ export default function AdminDashboardPage() {
           icon={FolderKanban}
           trend="100% active state"
           description="Syllabus header sections"
-          gradientScheme="emerald"
+          gradientScheme="primary"
         />
         <MetricCard
           title="Published Content"
@@ -149,7 +149,7 @@ export default function AdminDashboardPage() {
           icon={Sliders}
           trend="+8 updates today"
           description="Total learning asset blocks"
-          gradientScheme="orange"
+          gradientScheme="primary"
         />
       </div>
 
