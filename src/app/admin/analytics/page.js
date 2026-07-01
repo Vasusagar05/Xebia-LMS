@@ -100,7 +100,7 @@ export default function AdminAnalyticsPage() {
           icon={Award}
           trend="+120 issued today"
           description="Total learner badge exports"
-          gradientScheme="blue"
+          gradientScheme="primary"
         />
         <MetricCard
           title="Daily Active Learners"
@@ -108,7 +108,7 @@ export default function AdminAnalyticsPage() {
           icon={Users}
           trend="+12% active streak"
           description="Live database sessions today"
-          gradientScheme="emerald"
+          gradientScheme="primary"
         />
         <MetricCard
           title="Average Study Session"
@@ -116,7 +116,7 @@ export default function AdminAnalyticsPage() {
           icon={Clock}
           trend="-2 mins vs last week"
           description="Telemetry duration average"
-          gradientScheme="orange"
+          gradientScheme="primary"
         />
       </div>
 
